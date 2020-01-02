@@ -5,7 +5,7 @@
             <title>{{ page.title }}</title>
             <!-- link to main stylesheet -->
             <link rel="stylesheet" type="text/css" href="/css/main.css">
-            {% include analytics.html %}    
+
         </head>
         <body>
             <nav>
@@ -27,5 +27,8 @@
                     <li><a href="https://github.com/npklein">github.com/npklein</a></li>
                 </ul>
             </footer>
+            {% if jekyll.environment == 'production' %}
+            {% include analytics.html %}
+            {% endif %}
         </body>
     </html>
