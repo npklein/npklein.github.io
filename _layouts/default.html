@@ -21,12 +21,9 @@
             {{ content }}
             
             </div><!-- /.container -->
-            <footer>
-                <ul>
-                    <li><a href="mailto:niekdeklein@gmail.com">email</a></li>
-                    <li><a href="https://github.com/npklein">github.com/npklein</a></li>
-                </ul>
-            </footer>
+
+            {% include footer.html %}
+
             {% if jekyll.environment == 'production' %}
             {% include analytics.html %}
             {% endif %}
