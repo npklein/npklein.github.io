@@ -10,6 +10,8 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    font-weight: bold;
+    color: red;
 }
 a {
     text-decoration: none;
@@ -19,7 +21,7 @@ a:hover {
     text-decoration: underline;
 }
 a:active {
-    font-weight: bold;
+    color: red;
 }
 
 
