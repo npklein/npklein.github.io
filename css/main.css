@@ -19,6 +19,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a:active {
+    text-decoration: bold;
+}
+
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -42,6 +47,3 @@ ul.posts li {
     list-style: none;
 }
 
-a:active {
-  background-color: yellow;
-}
